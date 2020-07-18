@@ -1,3 +1,8 @@
+/* Implementation of RSA cryptosystem
+ * includes custom made functions for the Extended Euclidean Algorithm, modular inverse, and relative primes.
+ * Prompts user to enter message for encryption.
+ */
+
 #include <iostream>
 #include <math.h>
 #include <assert.h>
@@ -113,7 +118,7 @@ int main()
 {
 
 	// CALCULATE VALUES FOR RSA
-	const int P = 7, Q = 3;
+	const int P = 7, Q = 3; // since variables are integer based, small values work best for P and Q.
         int PQ = P*Q;
         int relp = (P-1) * (Q-1);
         int e = RelativelyPrime(relp);
