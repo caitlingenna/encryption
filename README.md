@@ -1,3 +1,4 @@
 # encryption
 
-C++ implementations of cybersecurity algorithms, including functions needed in encryption and decryption calculations.
+C++ implementations of cybersecurity algorithms.
+Includes functions needed to perform encryption and decryption calculations (such as the extended Euclidean Algorithm and 
